@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="main">
+        <input  class="inp" id="disp"  type="text" name="display" >
+
+        <input class="btns" type="button" value="C"  onclick="clearDisplay()">
+        <input class="btns" type="button" value="DEL" onclick="textDelete()">
+        <input class="btns" type="button" value="." onclick="setValue('.')">
+        <input class="btns" type="button" value="/"  onclick="setValue('/')">
+
+        <input class="btns" type="button" value="7"  onclick="setValue(7)">
+        <input class="btns" type="button" value="8" onclick="setValue(8)" >
+        <input class="btns" type="button" value="9" onclick="setValue(9)">
+        <input class="btns" type="button" value="x"  onclick="setValue('*')">
+
+        <input class="btns" type="button" value="4" onclick="setValue(4)" >
+        <input class="btns" type="button" value="5" onclick="setValue(5)" >
+        <input class="btns" type="button" value="6"  onclick="setValue(6)">
+        <input class="btns" type="button" value="-"  onclick="setValue('-')">
+        
+        <input class="btns" type="button" value="1" onclick="setValue(1)" >
+        <input class="btns" type="button" value="2"  onclick="setValue(2)">
+        <input class="btns" type="button" value="3" onclick="setValue(3)" >
+        <input class="btns" type="button" value="+"  onclick="setValue('+')">
+
+        <input class="btns" type="button" value="0" onclick="setValue('0')">
+        <input class="btns" type="button" value="00" onclick="setValue('00')">
+        <input class="equal" type="button" value="="  onclick="bequal('=')"> 
+    </div>
+   
+</body>
+</html>

@@ -1,0 +1,42 @@
+.main{
+    width: 400px;
+    height: 550px;
+    background-color: gray;
+    margin-left: 440px;
+    margin-top: 50px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.inp{
+    width: 320px;
+    height: 55px;
+    margin-left:36px;
+    margin-top: 30px;
+    pointer-events: none;
+    border: 1px solid black;
+    border-radius: 6px;
+    color: black;
+    font-size: 30px;
+}
+.btns{
+    width: 62px;
+    height: 40px;
+    margin-top:50px;
+    margin-left: 30px;
+    border: 1px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+}
+.equal{
+    width: 150px;
+    height: 40px;
+    margin-top:50px;
+    margin-left: 30px;
+    border: 1px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+}
